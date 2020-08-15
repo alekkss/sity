@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    float: none;
+
+}
+
+/* button:active,
+button:focus {
+    outline: none !important;
+}
+
+button::-moz-focus-inner {
+    border: 0 !important;
+} */
+
+body {
+    min-width: 1170px;
+    background-image: url(img/flowers-4151900_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+/*  */
+
+
+
+.picture {
+    display: flex;
+    flex-direction: column;
+    max-width: 1300px;
+    /* min-height: 100%; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+
+.picture h1 {
+    font-size: 300%;
+    margin: 0 auto;
+    /* margin-left: 20px;
+    margin-left: 420px; */
+
+
+}
+
+.picture img {
+    max-width: 400px;
+    max-height: 400px;
+    background-position: center;
+    margin: 0 auto;
+    /* margin-left: 420px; */
+
+}
+
+.floverDown {
+    margin-top: 30px;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 85px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 40px;
+
+}
+
+.button {
+
+    margin: 0 auto;
+    outline: black solid 0px;
+    background-color: #F461C3;
+    width: 30%;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    border: none;
+}
+
+
+@media (max-width: 1200px) {
+    .picture {
+        max-width: 100%;
+    }
+
+    .header {
+        background-size: 120%;
+    }
+}
+
+@media (max-width: 992px) {
+    .picture {
+        max-width: 100%
+    }
+
+    .header {
+        background-size: 120%;
+    }
+}
+
+@media (max-width: 767px) {
+    .picture {
+        max-width: 100%;
+    }
+
+    .header {
+        background-size: 120%;
+    }
+}
+
+@media (max-width: 667px) {
+    body {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .picture {
+        max-width: 100%;
+
+    }
+
+    .picture img {
+        max-height: 200px;
+        background-position: center;
+        margin: 0 auto;
+        max-width: 148px;
+    }
+
+    .picture h1 {
+        font-size: 24px;
+        max-width: 84%;
+    }
+
+    .button {
+        max-width: 100%;
+        max-height: 100%;
+        font-size: 13px;
+    }
+
+
+
+
+}
